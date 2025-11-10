@@ -1,0 +1,14 @@
+
+print("Programa que analiza una palabra")
+palabra = input("Escribe una palabra: ")
+
+longitud = len(palabra)
+
+if longitud <= 5:
+    print("La palabra", palabra, "tiene", longitud, "letras")
+    print("La primera letra es:", palabra[0])
+    print("La última letra es:", palabra[-1])
+else:
+    print("La palabra", palabra, "tiene", longitud, "letras")
+    print("Las 4 primeras letras son:", palabra[0] + palabra[1] + palabra[2] + palabra[3])
+    print("Las 4 últimas letras son:", palabra[-4] + palabra[-3] + palabra[-2] + palabra[-1])
