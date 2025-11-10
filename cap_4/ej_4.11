@@ -1,0 +1,16 @@
+suma = 0
+contador = 0
+texto = input("Escribe un número (deja vacío para terminar): ")
+while texto != "":
+    numero = eval(texto)
+    suma = suma + numero
+    contador = contador + 1
+    texto = input("Escribe un número (deja vacío para terminar): ")
+
+if contador > 0:
+    media = suma / contador
+    print("Números introducidos:", contador)
+    print("Suma:", suma)
+    print("Media:", media)
+else:
+    print("No se introdujo ningún número.")
