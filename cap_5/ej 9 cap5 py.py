@@ -1,0 +1,6 @@
+import random
+
+opciones = ["1", "X", "2"]
+quiniela = [random.choice(opciones) for _ in range(15)]
+print("Resultados de la quiniela:")
+print(quiniela)

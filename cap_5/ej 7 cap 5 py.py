@@ -1,0 +1,5 @@
+import random
+
+nombres = ["Ana","Luis","Sofía","Pablo","María","Carlos","Elena","Jorge","Lucía","Raúl"]
+random.shuffle(nombres)
+print("Lista desordenada:", nombres)
